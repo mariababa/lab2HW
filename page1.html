@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 02 </title>
+
+        <style>
+  body{
+margin: 0;
+padding: 0;
+font-size: 30px;
+background-image: url(music2.jpg);
+font-family: sans-serif;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right top;
+  background-attachment: fixed;
+ 
+ }
+ label{
+margin: 0 0 10px;
+padding: 0; 
+font-size: 24px;
+ }
+ .box{
+  color:black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+ } 
+input{
+position: relative;
+display: inline-block;
+font-size: 20px;
+box-sizing: border-box;
+color: #000;
+background-color: rgb(253, 253, 253);
+height: 50px;
+width: 350px;
+border-radius: 25px 0 0 25px;
+ }   
+ 
+ button{
+position: relative;
+border-radius: 0 25px 25px 0;
+width: 150px;
+height: 50px;
+border: none;
+margin-left: -9px;
+outline: none;
+cursor: pointer;
+background-color: #dcdc06;
+
+ } 
+ .header{
+    display: flex;
+    justify-content: space-between;
+    width: 1365px;
+    height: 50px;
+    align-items: center;
+    background-color: #dcdcd7;
+    overflow: hidden;
+    opacity: 0.5;
+
+ } 
+ a{
+margin: 20px;
+}     
+    </style>
+</head> 
+  <body>
+    <header class="header">
+      <a  title="ميوزيكن " href="#">music</a>
+      <a href="#" title="جديد البحث">  New Search </a>
+      </header>
+   
+      
+
+        
+<div class="box">
+  <form action="page2.html">
+    <label for="site-search"><h1>Chong Qing House</h1></label>
+    <p style="font-size: 20px;">Hello!  we are planning on holding a Noodle Night but
+      they haven’t figured out what music to play for their customers.
+       They have found a database
+      of over 2 million music CDs which they want to search through.</p>
+    <br>
+    <input type="search" id="site-search" name="q"
+           aria-label="Search through site content">
+    
+    <button type="submit">Search</button>
+
+</form>
+</div>
+
+
+        </body>
